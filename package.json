@@ -9,10 +9,16 @@
     "test": "npm run build && jest"
   },
   "keywords": [
-    "BuckleScript"
+    "reasonml",
+    "algorithms",
+    "data-structures"
   ],
-  "author": "",
+  "author": "dylanirlbeck",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanirlbeck/disjoint-set-reason.git"
+  },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
     "bs-platform": "^5.2.1"

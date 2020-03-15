@@ -20,8 +20,9 @@
     "url": "git+https://github.com/dylanirlbeck/disjoint-set-reason.git"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.9",
-    "bs-platform": "^5.2.1"
+    "@glennsl/bs-jest": "^0.4.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bs-platform": "^7.2.2"
+  }
 }

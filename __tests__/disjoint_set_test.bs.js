@@ -5,26 +5,26 @@ var Jest = require("@glennsl/bs-jest/src/jest.js");
 var Caml_array = require("bs-platform/lib/js/caml_array.js");
 var DisjointSet$DisjointSetReason = require("../src/DisjointSet.bs.js");
 
-Jest.describe("Disjoint Set Create", (function (param) {
-        var disjoint_set = DisjointSet$DisjointSetReason.create(10);
+Jest.describe("Disjoint Set Make", (function (param) {
+        var disjoint_set = DisjointSet$DisjointSetReason.make(10);
         Jest.test("create works for elements #1", (function (param) {
-                return Jest.Expect.toBe(4, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* elems */0], 4)));
+                return Jest.Expect.toBe(4, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.elems, 4)));
               }));
         Jest.test("create works for elements #2", (function (param) {
-                return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* elems */0], 0)));
+                return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.elems, 0)));
               }));
         Jest.test("create works for rank #1", (function (param) {
-                return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* rank */1], 6)));
+                return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.rank, 6)));
               }));
         return Jest.test("create works for rank #2", (function (param) {
-                      return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* rank */1], 2)));
+                      return Jest.Expect.toBe(0, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.rank, 2)));
                     }));
       }));
 
 Jest.describe("Disjoint Set Find", (function (param) {
-        var disjoint_set = DisjointSet$DisjointSetReason.create(10);
-        Caml_array.caml_array_set(disjoint_set[/* elems */0], 2, 3);
-        Caml_array.caml_array_set(disjoint_set[/* elems */0], 8, 2);
+        var disjoint_set = DisjointSet$DisjointSetReason.make(10);
+        Caml_array.caml_array_set(disjoint_set.elems, 2, 3);
+        Caml_array.caml_array_set(disjoint_set.elems, 8, 2);
         Jest.test("find works for unioned elements #1", (function (param) {
                 return Jest.Expect.toBe(3, Jest.Expect.expect(DisjointSet$DisjointSetReason.find(disjoint_set, 2)));
               }));
@@ -37,7 +37,7 @@ Jest.describe("Disjoint Set Find", (function (param) {
       }));
 
 Jest.describe("Disjoint Set Union", (function (param) {
-        var disjoint_set = DisjointSet$DisjointSetReason.create(10);
+        var disjoint_set = DisjointSet$DisjointSetReason.make(10);
         DisjointSet$DisjointSetReason.union(disjoint_set, 2, 3);
         DisjointSet$DisjointSetReason.union(disjoint_set, 4, 5);
         DisjointSet$DisjointSetReason.union(disjoint_set, 4, 8);
@@ -52,24 +52,24 @@ Jest.describe("Disjoint Set Union", (function (param) {
                 return Jest.Expect.toBe(5, Jest.Expect.expect(DisjointSet$DisjointSetReason.find(disjoint_set, 3)));
               }));
         Jest.test("union works for rank #1", (function (param) {
-                return Jest.Expect.toBe(2, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* rank */1], 5)));
+                return Jest.Expect.toBe(2, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.rank, 5)));
               }));
         return Jest.test("union works for rank #2", (function (param) {
-                      return Jest.Expect.toBe(1, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* rank */1], 3)));
+                      return Jest.Expect.toBe(1, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.rank, 3)));
                     }));
       }));
 
 Jest.describe("Disjoint Set Path Compression", (function (param) {
-        var disjoint_set = DisjointSet$DisjointSetReason.create(10);
-        Caml_array.caml_array_set(disjoint_set[/* elems */0], 2, 3);
-        Caml_array.caml_array_set(disjoint_set[/* elems */0], 1, 2);
-        Caml_array.caml_array_set(disjoint_set[/* elems */0], 8, 1);
+        var disjoint_set = DisjointSet$DisjointSetReason.make(10);
+        Caml_array.caml_array_set(disjoint_set.elems, 2, 3);
+        Caml_array.caml_array_set(disjoint_set.elems, 1, 2);
+        Caml_array.caml_array_set(disjoint_set.elems, 8, 1);
         DisjointSet$DisjointSetReason.find(disjoint_set, 1);
         Jest.test("path compression works #1", (function (param) {
-                return Jest.Expect.toBe(3, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* elems */0], 1)));
+                return Jest.Expect.toBe(3, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.elems, 1)));
               }));
         return Jest.test("path compression works #2", (function (param) {
-                      return Jest.Expect.toBe(1, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set[/* elems */0], 8)));
+                      return Jest.Expect.toBe(1, Jest.Expect.expect(Caml_array.caml_array_get(disjoint_set.elems, 8)));
                     }));
       }));
 

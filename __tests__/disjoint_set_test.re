@@ -2,8 +2,8 @@ open Jest;
 open Expect;
 open DisjointSet;
 
-describe("Disjoint Set Create", () => {
-  let disjoint_set = create(10);
+describe("Disjoint Set Make", () => {
+  let disjoint_set = make(10);
 
   test("create works for elements #1", () =>
     expect(disjoint_set.elems[4]) |> toBe(4)
@@ -23,7 +23,7 @@ describe("Disjoint Set Create", () => {
 });
 
 describe("Disjoint Set Find", () => {
-  let disjoint_set = create(10);
+  let disjoint_set = make(10);
 
   // Setting these two elements will mock out two "union" operations.
   disjoint_set.elems[2] = 3;
@@ -43,7 +43,7 @@ describe("Disjoint Set Find", () => {
 });
 
 describe("Disjoint Set Union", () => {
-  let disjoint_set = create(10);
+  let disjoint_set = make(10);
 
   union(disjoint_set, 2, 3); // Tree: 2 -> 3
   union(disjoint_set, 4, 5); // Tree: 2 -> 3, 4 -> 5
@@ -70,12 +70,12 @@ describe("Disjoint Set Union", () => {
 });
 
 describe("Disjoint Set Path Compression", () => {
-  let disjoint_set = create(10);
+  let disjoint_set = make(10);
 
   disjoint_set.elems[2] = 3; // Tree: 2 -> 3
   disjoint_set.elems[1] = 2; // Tree: 1 -> 2 -> 3
   disjoint_set.elems[8] = 1; // Tree: 8 -> 1 -> 2 -> 3
-  find(disjoint_set, 1); // Tree: 8 -> 1 -> 3, 2 -> 3
+  find(disjoint_set, 1) |> ignore; // Tree: 8 -> 1 -> 3, 2 -> 3
 
   test("path compression works #1", () =>
     expect(disjoint_set.elems[1]) |> toBe(3)

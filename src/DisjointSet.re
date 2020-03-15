@@ -3,7 +3,7 @@ type t = {
   rank: array(int),
 };
 
-let create = size => {
+let make = size => {
   // Set the array elements equal to their index to create the disjoint sets (each element is its own parent initially).
   let dummy_elems = Array.make(size, -1);
   let init_elems = Array.mapi((index, _) => index, dummy_elems);

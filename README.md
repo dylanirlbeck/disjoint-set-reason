@@ -5,7 +5,7 @@ An implementation of the [Disjoint Set data structure](https://en.wikipedia.org/
 ## Example
 
 ```reason
-let disjoint_set = DisjointSet.create(10); // Creates a Disjoint Set with a size of 10.
+let disjoint_set = DisjointSet.make(10); // Creates a Disjoint Set with a size of 10.
 DisjointSet.union(disjoint_set, 2, 3); // Union set 2 with set 3.
 let twos_parent = find(disjoint_set, 2); // Find 2's parent.
 Js.log(twos_parent); // Prints out '3'.

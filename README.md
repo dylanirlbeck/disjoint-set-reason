@@ -1,5 +1,7 @@
 # disjoint-set-reason
 
+[![npm](https://img.shields.io/npm/v/disjoint-set-reason.svg)](https://www.npmjs.com/package/disjoint-set-reason)
+
 An implementation of the [Disjoint Set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) in [Reason](https://reasonml.github.io/en/).
 
 ## Example

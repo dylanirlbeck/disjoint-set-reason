@@ -1,7 +1,7 @@
 {
   "name": "disjoint-set-reason",
   "description": "A Disjoint Set implementation in Reason",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",

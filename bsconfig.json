@@ -2,7 +2,7 @@
   "name": "disjoint-set-reason",
   "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
   "refmt": 3,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "sources": [
     {
       "dir": "src",

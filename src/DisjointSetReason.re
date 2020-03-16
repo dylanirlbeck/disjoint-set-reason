@@ -1,1 +1,1 @@
-open DisjointSet;
+include DisjointSet;

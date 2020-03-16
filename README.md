@@ -6,6 +6,7 @@ An implementation of the [Disjoint Set data structure](https://en.wikipedia.org/
 
 ```reason
 open DisjointSet;
+
 let disjoint_set = makeSet(10); // Creates a Disjoint Set with a size of 10.
 disjoint_set -> union(2, 3); // Union set 2 with set 3.
 let twos_parent = disjoint_set -> find(2); // Find 2's parent.
@@ -34,8 +35,6 @@ Then add `disjoint-set-reason` to `bs-dependencies` in your `bsconfig.json`:
 git clone https://github.com/dylanirlbeck/disjoint-set-reason
 cd disjoint-set-reason
 yarn
-
-```
 
 ```
 ````

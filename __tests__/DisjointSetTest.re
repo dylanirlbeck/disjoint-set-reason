@@ -5,6 +5,8 @@ open DisjointSet;
 describe("Disjoint Set Make", () => {
   let disjoint_set = makeSet(10);
 
+  Js.log("Force Reason conversion in GH");
+
   test("create works for elements #1", () =>
     expect(disjoint_set.elems[4]) |> toBe(4)
   );

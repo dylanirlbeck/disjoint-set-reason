@@ -979,6 +979,13 @@ diff-sequences@^25.1.0:
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-25.1.0.tgz#fd29a46f1c913fd66c22645dc75bffbe43051f32"
   integrity sha512-nFIfVk5B/NStCsJ+zaPO4vYuLjlzQ6uFvPxzYyHlejNZ/UGa7G/n7peOXVrVNvRuyfstt+mZQYGpjxg9Z6N8Kw==
 
+disjoint-set-reason@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/disjoint-set-reason/-/disjoint-set-reason-0.1.0.tgz#345b21f10483a934bb84fd2da6d7f76c0a886418"
+  integrity sha512-CkEdPsc2LXOlKLbhKbzdeONtQAdJTRCrdRd+z4Zh+AdSFT9wd2gKp/RqH9W4+E6OC7I85zYz9l+pdQuAzdD1Zg==
+  dependencies:
+    bs-platform "^7.2.2"
+
 domexception@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/domexception/-/domexception-1.0.1.tgz#937442644ca6a31261ef36e3ec677fe805582c90"

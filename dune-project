@@ -1,7 +1,5 @@
 (lang dune 1.1)
 
-(generate_opam_files true)
-
 (package
   (name disjoint-set-reason))
   (synopsis "A Disjoint Set implementation in Reason")

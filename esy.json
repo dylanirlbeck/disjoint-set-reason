@@ -1,0 +1,22 @@
+{
+  "name": "disjoint-set-reason",
+  "version": "0.2.0",
+  "scripts": {
+    "release": "./scripts/release.sh"
+  },
+  "esy": {
+    "build": "dune build -p #{self.name}"
+  },
+  "dependencies": {
+    "@opam/dune": "1.11.4",
+    "@opam/reason": "3.5.2",
+    "ocaml": "~4.6.1000"
+  },
+  "keywords": ["reasonml", "algorithms", "data-structures"],
+  "author": "Dylan Irlbeck",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanirlbeck/disjoint-set-reason.git"
+  }
+}

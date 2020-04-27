@@ -1,0 +1,34 @@
+{
+  "ocaml@4.6.1000@d41d8cd9":
+    "/Users/dylanirlbeck/.esy/source/i/ocaml__4.6.1000__3818d032",
+  "disjoint-set-reason@link-dev:./esy.json":
+    "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason",
+  "@opam/result@opam:1.5@6b753c82":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__result__opam__c__1.5__9dc19750",
+  "@opam/reason@opam:3.5.2@f689c2cb":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__reason__opam__c__3.5.2__c0ada0ba",
+  "@opam/ppx_derivers@opam:1.2.1@ecf0aa45":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__ppx__derivers__opam__c__1.2.1__a5e0f03f",
+  "@opam/ocamlfind@opam:1.8.1@ff07b0f9":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__0bdaf9d3",
+  "@opam/ocamlbuild@opam:0.14.0@6ac75d03":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0",
+  "@opam/ocaml-migrate-parsetree@opam:1.7.2@bc8b618e":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__ocaml_migrate_parsetree__opam__c__1.7.2__3f57b2b5",
+  "@opam/merlin-extend@opam:0.5@a5dd7d4b":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__merlin_extend__opam__c__0.5__d71a3621",
+  "@opam/menhir@opam:20190924@004407ff":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__menhir__opam__c__20190924__cffc2327",
+  "@opam/dune@opam:1.11.4@a7ccb7ae":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__dune__opam__c__1.11.4__7815d6f1",
+  "@opam/cppo@opam:1.6.6@f4f83858":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__cppo__opam__c__1.6.6__df887bb2",
+  "@opam/conf-m4@opam:1@3b2b148a":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__conf_m4__opam__c__1__7031fb84",
+  "@opam/base-unix@opam:base@87d0b2eb":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__base_unix__opam__c__base__93427a57",
+  "@opam/base-threads@opam:base@36803084":
+    "/Users/dylanirlbeck/.esy/source/i/opam__s__base_threads__opam__c__base__f282958b",
+  "@esy-ocaml/substs@0.0.1@d41d8cd9":
+    "/Users/dylanirlbeck/.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1"
+}

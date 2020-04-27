@@ -9,4 +9,3 @@
     (dune (>= 1.11))
     (reason :build)
   )
-)

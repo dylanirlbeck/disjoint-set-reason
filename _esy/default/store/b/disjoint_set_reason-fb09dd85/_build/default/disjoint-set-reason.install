@@ -15,6 +15,7 @@ lib: [
   "_build/install/default/lib/disjoint-set-reason/dune-package"
 ]
 doc: [
+  "_build/install/default/doc/disjoint-set-reason/CHANGES.md"
   "_build/install/default/doc/disjoint-set-reason/LICENSE"
   "_build/install/default/doc/disjoint-set-reason/README.md"
 ]

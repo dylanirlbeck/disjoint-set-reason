@@ -1,0 +1,20 @@
+lib: [
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSet.a"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSet.cma"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSet.cmxa"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSet.cmxs"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSet.re"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/DisjointSetReason.re"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/META"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSet.cmi"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSet.cmt"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSet.cmx"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSetReason.cmi"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSetReason.cmt"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/disjointSetReason.cmx"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/lib/disjoint-set-reason/dune-package"
+]
+doc: [
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/doc/disjoint-set-reason/LICENSE"
+  "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-a2ce8f2b/install/default/doc/disjoint-set-reason/README.md"
+]

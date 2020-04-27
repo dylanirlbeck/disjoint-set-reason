@@ -1,0 +1,28 @@
+{
+  "name": "disjoint-set-reason",
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3,
+  "version": "0.2.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "namespace": false,
+  "bs-dependencies": [],
+  "warnings": {
+    "error": "+101"
+  },
+  "bs-dev-dependencies": ["@glennsl/bs-jest"]
+}

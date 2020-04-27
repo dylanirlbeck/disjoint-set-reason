@@ -1,5 +1,0 @@
-# /Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/bin/dune build -p disjoint-set-reason
-# OCAMLPARAM: unset
-$ /usr/local/bin/nproc > /tmp/dune02f763.output 2> /dev/null
-$ /Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/bin/ocamlfind printconf path > /tmp/duneaa2af5.output
-$ /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/bin/ocamlc.opt -config > /tmp/dune098852.output

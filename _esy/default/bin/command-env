@@ -8,7 +8,7 @@ export USER='dylanirlbeck'
 export SECURITYSESSIONID='186a8'
 export DISPLAY='/private/tmp/com.apple.launchd.FceTruSDl6/org.macosforge.xquartz:0'
 export LOGNAME='dylanirlbeck'
-export PATH='/Users/dylanirlbeck/.opam/4.06.0/bin:/Users/dylanirlbeck/bin:/Users/dylanirlbeck/.opam/4.06.0/bin:/Users/dylanirlbeck/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/kitty.app/Contents/MacOS:/Users/dylanirlbeck/bin/flutter/bin:/usr/local/opt/fzf/bin:/Users/dylanirlbeck/bin/flutter/bin'
+export PATH='/Users/dylanirlbeck/.opam/4.06.0/bin:/Users/dylanirlbeck/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/kitty.app/Contents/MacOS:/Users/dylanirlbeck/bin/flutter/bin:/usr/local/opt/fzf/bin'
 export SSH_AUTH_SOCK='/private/tmp/com.apple.launchd.OTc3z2XOXt/Listeners'
 export SHELL='/usr/local/bin/zsh'
 export HOME='/Users/dylanirlbeck'
@@ -19,12 +19,13 @@ export XPC_SERVICE_NAME='0'
 export XPC_FLAGS='0x0'
 export LANG='en_US.UTF-8'
 export EDITOR='vim'
-export KITTY_WINDOW_ID='12'
-export TERM='xterm-256color'
-export PWD='/Users/dylanirlbeck/Code/reason/disjoint-set-reason'
+export KITTY_WINDOW_ID='22'
+export TERM='xterm-kitty'
+export COLORTERM='truecolor'
+export PWD='/Users/dylanirlbeck/Code/Reason/disjoint-set-reason'
 export TERMINFO='/Applications/kitty.app/Contents/Frameworks/kitty/terminfo'
-export SHLVL='2'
-export OLDPWD='/Users/dylanirlbeck/Code/reason/disjoint-set-reason'
+export SHLVL='1'
+export OLDPWD='/Users/dylanirlbeck/Code/Reason'
 export BROWSER='open'
 export VISUAL='nano'
 export PAGER='less'
@@ -36,28 +37,21 @@ export LSCOLORS='Gxfxcxdxbxegedabagacad'
 export P9K_SSH='0'
 export FZF_DEFAULT_COMMAND='rg --files --hidden'
 export OPAM_SWITCH_PREFIX='/Users/dylanirlbeck/.opam/4.06.0'
-export VIMRUNTIME='/usr/local/Cellar/neovim/0.4.3/share/nvim/runtime'
-export NVIM_LISTEN_ADDRESS='/var/folders/pr/xx547jjd6y3fscmzq65g649c0000gn/T/nvimxA7J88/0'
-export VIM='/usr/local/Cellar/neovim/0.4.3/share/nvim'
-export MYVIMRC='/Users/dylanirlbeck/dotfiles/config/nvim/init.vim'
-export FZF_DEFAULT_OPTS=' --border --margin=0,2'
-export COC_VIMCONFIG='/Users/dylanirlbeck/dotfiles/config/nvim'
-export COC_DATA_HOME='/Users/dylanirlbeck/.config/coc'
 export _='/usr/local/bin/esy'
 export PATH="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/bin:$PATH"
-export cur__etc="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/etc"
-export cur__share="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/share"
-export cur__toplevel="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/toplevel"
-export cur__stublibs="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/stublibs"
-export cur__doc="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/doc"
-export cur__man="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/man"
-export cur__lib="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/lib"
-export cur__sbin="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/sbin"
-export cur__bin="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/bin"
-export cur__install="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51"
-export cur__target_dir="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-5cf72d51"
+export cur__etc="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/etc"
+export cur__share="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/share"
+export cur__toplevel="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/toplevel"
+export cur__stublibs="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/stublibs"
+export cur__doc="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/doc"
+export cur__man="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/man"
+export cur__lib="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/lib"
+export cur__sbin="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/sbin"
+export cur__bin="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/bin"
+export cur__install="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85"
+export cur__target_dir="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85"
 export cur__original_root="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason"
-export cur__root="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason"
+export cur__root="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85"
 export cur__dev="true"
 export cur__version="0.2.0"
 export cur__name="disjoint-set-reason"
@@ -65,26 +59,82 @@ export cur__name="disjoint-set-reason"
 #
 # @opam/uchar@opam:0.0.2@c8218eea
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95bf808a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95bf808a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95bf808a/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95bf808a/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-95bf808a/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/bin:$PATH"
 
 #
 # @opam/uutf@opam:1.0.2@4440868f
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-26f216f1/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-26f216f1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-26f216f1/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-26f216f1/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-26f216f1/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/bin:$PATH"
 
 #
 # @opam/base-bytes@opam:base@19d0c2ff
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-db06a90f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-db06a90f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-db06a90f/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-db06a90f/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-db06a90f/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/bin:$PATH"
+
+#
+# @opam/atdgen-runtime@opam:2.2.1@6a3a6395
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/bin:$PATH"
+
+#
+# @opam/atd@opam:2.2.1@071ab6bd
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/bin:$PATH"
+
+#
+# @opam/ppx_derivers@opam:1.2.1@ecf0aa45
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/bin:$PATH"
+
+#
+# @opam/menhirSdk@opam:20200211@b2a79ec0
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/bin:$PATH"
+
+#
+# @opam/menhirLib@opam:20200211@93d0f001
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/bin:$PATH"
+
+#
+# @opam/easy-format@opam:1.3.2@0484b3c4
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/bin:$PATH"
+
+#
+# @opam/biniou@opam:1.2.1@d7570399
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/bin:$PATH"
 
 #
 # @opam/conf-m4@opam:1@3b2b148a
@@ -95,36 +145,28 @@ export MAN_PATH="/Users/dylanirlbeck/.esy/3_____________________________________
 export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/bin:$PATH"
 
 #
-# @opam/ppx_derivers@opam:1.2.1@ecf0aa45
-#
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7491c312/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7491c312/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7491c312/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7491c312/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7491c312/bin:$PATH"
-
-#
 # @opam/opam-repository@opam:2.0.7@1409b477
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-c0273dcf/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-c0273dcf/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-c0273dcf/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-c0273dcf/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-c0273dcf/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/bin:$PATH"
 
 #
 # @opam/opam-file-format@opam:2.0.0@d0c9876d
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-e001f732/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-e001f732/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-e001f732/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-e001f732/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-e001f732/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/bin:$PATH"
 
 #
 # @opam/ocamlgraph@opam:1.8.8@2767ad0b
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-e55d5b5a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-e55d5b5a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-e55d5b5a/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-e55d5b5a/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-e55d5b5a/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/bin:$PATH"
 
 #
 # @opam/base-bigarray@opam:base@b03491b0
@@ -137,187 +179,235 @@ export PATH="/Users/dylanirlbeck/.esy/3_________________________________________
 #
 # @opam/tyxml@opam:4.4.0@1dca5713
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-6fb7a918/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-6fb7a918/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-6fb7a918/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-6fb7a918/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-6fb7a918/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/bin:$PATH"
 
 #
 # @opam/cppo@opam:1.6.6@f4f83858
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-b18039e2/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-b18039e2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-b18039e2/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-b18039e2/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-b18039e2/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/bin:$PATH"
 
 #
 # @opam/stdlib-shims@opam:0.1.0@d957c903
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-0b13f776/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-0b13f776/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-0b13f776/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-0b13f776/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-0b13f776/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/bin:$PATH"
 
 #
-# @opam/seq@opam:0.2.2@e9144e45
+# @opam/seq@opam:base@d8d7de1d
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__0.2.2-9d859511/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__0.2.2-9d859511/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__0.2.2-9d859511/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__0.2.2-9d859511/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__0.2.2-9d859511/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/bin:$PATH"
 
 #
 # @opam/topkg@opam:1.0.1@a42c631e
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-667295e4/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-667295e4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-667295e4/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-667295e4/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-667295e4/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/bin:$PATH"
 
 #
 # @opam/ocamlbuild@opam:0.14.0@6ac75d03
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-7dddaf57/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-7dddaf57/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-7dddaf57/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-7dddaf57/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-7dddaf57/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/bin:$PATH"
 
 #
 # @opam/fpath@opam:0.7.2@45477b93
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-7c7deaa3/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-7c7deaa3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-7c7deaa3/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-7c7deaa3/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-7c7deaa3/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/bin:$PATH"
 
 #
 # @opam/astring@opam:0.8.3@4e5e17d5
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-fc3d0ed1/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-fc3d0ed1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-fc3d0ed1/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-fc3d0ed1/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-fc3d0ed1/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/bin:$PATH"
+
+#
+# @reason-native/pastel@0.3.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/bin:$PATH"
+
+#
+# @reason-native/console@0.1.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/bin:$PATH"
+
+#
+# @opam/atdgen@opam:2.2.1@d73fda11
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/bin:$PATH"
+
+#
+# @esy-ocaml/reason@3.6.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/bin:$PATH"
 
 #
 # @opam/result@opam:1.5@6b753c82
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-6a2ead84/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-6a2ead84/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-6a2ead84/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-6a2ead84/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-6a2ead84/bin:$PATH"
-
-#
-# @opam/ocamlfind@opam:1.8.1@ff07b0f9
-#
-export OCAML_TOPLEVEL_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/toplevel"
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-2f5474b2/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/bin:$PATH"
 
 #
 # @opam/ocaml-migrate-parsetree@opam:1.7.2@bc8b618e
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-d33c059e/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-d33c059e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-d33c059e/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-d33c059e/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-d33c059e/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/bin:$PATH"
 
 #
 # @opam/merlin-extend@opam:0.5@a5dd7d4b
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-dc61e6c1/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-dc61e6c1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-dc61e6c1/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-dc61e6c1/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-dc61e6c1/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/bin:$PATH"
 
 #
-# @opam/menhir@opam:20190924@004407ff
+# @opam/menhir@opam:20200211@26571604
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20190924-388768c9/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20190924-388768c9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20190924-388768c9/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20190924-388768c9/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20190924-388768c9/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/bin:$PATH"
+
+#
+# @opam/fix@opam:20200131@0ecd2f01
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/bin:$PATH"
+
+#
+# @opam/yojson@opam:1.7.0@7056d985
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/bin:$PATH"
+
+#
+# @opam/ocamlfind@opam:1.8.1@ff07b0f9
+#
+export OCAML_TOPLEVEL_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/toplevel"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/bin:$PATH"
 
 #
 # @opam/rresult@opam:0.6.0@4b185e72
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-53fb306d/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-53fb306d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-53fb306d/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-53fb306d/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-53fb306d/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/bin:$PATH"
 
 #
 # @opam/re@opam:1.9.0@d4d5e13d
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-59dccf16/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-59dccf16/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-59dccf16/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-59dccf16/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-59dccf16/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/bin:$PATH"
 
 #
 # @opam/opam-state@opam:2.0.7@38b71beb
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-85d872c5/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-85d872c5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-85d872c5/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-85d872c5/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-85d872c5/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/bin:$PATH"
 
 #
 # @opam/opam-format@opam:2.0.7@8fc486fe
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-9fbe0247/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-9fbe0247/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-9fbe0247/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-9fbe0247/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-9fbe0247/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/bin:$PATH"
 
 #
 # @opam/opam-core@opam:2.0.7@0c803b07
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-eb8ac17b/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-eb8ac17b/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-eb8ac17b/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-eb8ac17b/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-eb8ac17b/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/bin:$PATH"
 
 #
 # @opam/odoc@opam:1.5.0@35218f5f
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-f81f5c57/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-f81f5c57/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-f81f5c57/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-f81f5c57/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-f81f5c57/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/bin:$PATH"
 
 #
 # @opam/logs@opam:0.7.0@1d03143e
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-8654997a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-8654997a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-8654997a/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-8654997a/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-8654997a/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/bin:$PATH"
 
 #
 # @opam/fmt@opam:0.8.8@01c3a23c
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-d717b7d1/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-d717b7d1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-d717b7d1/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-d717b7d1/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-d717b7d1/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/bin:$PATH"
 
 #
 # @opam/cmdliner@opam:1.0.4@93208aac
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-1bcbe70e/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-1bcbe70e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-1bcbe70e/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-1bcbe70e/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-1bcbe70e/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/bin:$PATH"
 
 #
 # @opam/bos@opam:0.2.0@df49e63f
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-4bf1aefc/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-4bf1aefc/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-4bf1aefc/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-4bf1aefc/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-4bf1aefc/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/bin:$PATH"
 
 #
 # @opam/base-unix@opam:base@87d0b2eb
@@ -344,46 +434,60 @@ export MAN_PATH="/Users/dylanirlbeck/.esy/3_____________________________________
 export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/bin:$PATH"
 
 #
-# ocaml@4.6.1000@d41d8cd9
+# refmterr@3.3.0@d41d8cd9
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/lib/ocaml/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/lib/ocaml:$CAML_LD_LIBRARY_PATH"
-export OCAMLLIB="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/lib/ocaml"
-export OCAML_TOPLEVEL_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/lib/ocaml"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.6.1000-a4275564/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/bin:$PATH"
 
 #
-# @opam/reason@opam:3.5.2@f689c2cb
+# ocaml@4.9.0@d41d8cd9
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.5.2-9d3d27ec/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.5.2-9d3d27ec/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.5.2-9d3d27ec/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.5.2-9d3d27ec/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.5.2-9d3d27ec/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin:$PATH"
+
+#
+# @opam/reason@opam:3.6.0@2da53ff9
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/bin:$PATH"
+
+#
+# @opam/merlin@opam:3.3.4@5fcabf21
+#
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/bin:$PATH"
 
 #
 # @opam/dune-release@opam:1.3.3@9c1663be
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-38f5113d/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-38f5113d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-38f5113d/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-38f5113d/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-38f5113d/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/bin:$PATH"
 
 #
-# @opam/dune@opam:1.11.4@a7ccb7ae
+# @opam/dune@opam:2.5.1@a0c1e658
 #
-export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/lib/stublibs:$CAML_LD_LIBRARY_PATH"
-export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/lib:$OCAMLPATH"
-export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/man:$MAN_PATH"
-export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__1.11.4-088631c8/bin:$PATH"
+export CAML_LD_LIBRARY_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/stublibs:/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/lib:$OCAMLPATH"
+export MAN_PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/man:$MAN_PATH"
+export PATH="/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/bin:$PATH"
 
 #
 # Built-in
 #
 export OCAMLFIND_LDCONF="ignore"
-export OCAMLFIND_DESTDIR="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-5cf72d51/lib"
-export DUNE_BUILD_DIR="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-5cf72d51"
-export DUNE_STORE_ORIG_SOURCE_DIR="true"
+export OCAMLFIND_DESTDIR="/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/i/disjoint_set_reason-fb09dd85/lib"
 export SHELL="env -i /bin/bash --norc --noprofile"
 export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export SHELL="/usr/local/bin/zsh"

@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/disjoint-set-reason/DisjointSet.a"
+  "_build/install/default/lib/disjoint-set-reason/DisjointSet.cma"
+  "_build/install/default/lib/disjoint-set-reason/DisjointSet.cmxa"
+  "_build/install/default/lib/disjoint-set-reason/DisjointSet.cmxs"
+  "_build/install/default/lib/disjoint-set-reason/DisjointSet.re"
+  "_build/install/default/lib/disjoint-set-reason/DisjointSetReason.re"
+  "_build/install/default/lib/disjoint-set-reason/META"
+  "_build/install/default/lib/disjoint-set-reason/disjointSet.cmi"
+  "_build/install/default/lib/disjoint-set-reason/disjointSet.cmt"
+  "_build/install/default/lib/disjoint-set-reason/disjointSet.cmx"
+  "_build/install/default/lib/disjoint-set-reason/disjointSetReason.cmi"
+  "_build/install/default/lib/disjoint-set-reason/disjointSetReason.cmt"
+  "_build/install/default/lib/disjoint-set-reason/disjointSetReason.cmx"
+  "_build/install/default/lib/disjoint-set-reason/dune-package"
+]
+doc: [
+  "_build/install/default/doc/disjoint-set-reason/LICENSE"
+  "_build/install/default/doc/disjoint-set-reason/README.md"
+]

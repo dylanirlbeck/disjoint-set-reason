@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "DisjointSet.cma"
+archive(native) = "DisjointSet.cmxa"
+plugin(byte) = "DisjointSet.cma"
+plugin(native) = "DisjointSet.cmxs"

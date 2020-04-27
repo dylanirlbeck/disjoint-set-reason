@@ -1,0 +1,245 @@
+# dune build --root . --only-package disjoint-set-reason
+# OCAMLPARAM: unset
+# Workspace root:
+# /Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85
+$ /usr/local/bin/nproc > /tmp/dune621110.output 2> /dev/null
+# Auto-detected concurrency: 12
+# disable binary cache
+$ /Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/bin/ocamlfind printconf path > /tmp/duneffb4e1.output
+$ /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlc.opt -config > /tmp/dune120624.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85/_build/default"
+#        ; "MANPATH" :
+#            "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/dylanirlbeck/Code/Reason/disjoint-set-reason/_esy/default/store/b/disjoint_set_reason-fb09dd85/_build/install/default/lib/toplevel"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune-opam__c__2.5.1-e0e6d83b/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__dune_release-opam__c__1.3.3-211db26a/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin-opam__c__3.3.4-c98f377b/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/refmterr-3.3.0-4ba23075/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__bos-opam__c__0.2.0-2692059f/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-c7dcbca6/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fmt-opam__c__0.8.8-dcb703b6/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-cb8a0875/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__odoc-opam__c__1.5.0-7b218f8d/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_core-opam__c__2.0.7-7c48612d/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_format-opam__c__2.0.7-bc388518/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_state-opam__c__2.0.7-0eee5306/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__re-opam__c__1.9.0-a3de23b5/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-11556318/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-483dc16a/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fix-opam__c__20200131-d5aab96e/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhir-opam__c__20200211-219d266a/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-f23b9051/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-ce31cb33/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__result-opam__c__1.5-15a57b88/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/esy_ocaml__s__reason-3.6.0-64f30220/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-447a8290/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__console-0.1.0-7a2cac4f/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/reason_native__s__pastel-0.3.0-fe40c5c2/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__astring-opam__c__0.8.3-2694dd5c/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__fpath-opam__c__0.7.2-af7b26a5/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-101ebd93/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-62199b97/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__seq-opam__c__base-5760452b/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-d5670877/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-e9d144c4/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-8c2bae02/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bigarray-opam__c__base-7c480a31/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlgraph-opam__c__1.8.8-a3d313fc/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_file_format-opam__c__2.0.0-24883c5d/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__opam_repository-opam__c__2.0.7-4b165083/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-5b69d5c0/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b8508c27/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-549f2ee8/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-bedbef90/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-9c87d54f/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atd-opam__c__2.2.1-a0061368/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-18be537e/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__base_bytes-opam__c__base-ec81fcda/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-1c2bfd9e/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-115c3e5f/lib"
+#      ; External
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-15cc69e3/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.09.0"
+#      ; standard_library_default =
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml"
+#      ; standard_library =
+#          "/Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.0.0"
+#      ; target = "x86_64-apple-darwin19.0.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = false
+#      ; exec_magic_number = "Caml1999X026"
+#      ; cmi_magic_number = "Caml1999I026"
+#      ; cmo_magic_number = "Caml1999O026"
+#      ; cma_magic_number = "Caml1999A026"
+#      ; cmx_magic_number = "Caml1999Y026"
+#      ; cmxa_magic_number = "Caml1999Z026"
+#      ; ast_impl_magic_number = "Caml1999M026"
+#      ; ast_intf_magic_number = "Caml1999N026"
+#      ; cmxs_magic_number = "Caml1999D026"
+#      ; cmt_magic_number = "Caml1999T026"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/bin/refmt --print binary src/DisjointSetReason.re) > _build/default/src/DisjointSetReason.re.ml
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/opam__s__reason-opam__c__3.6.0-df1c088f/bin/refmt --print binary src/DisjointSet.re) > _build/default/src/DisjointSet.re.ml
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamldep.opt -modules -impl src/DisjointSetReason.re.ml) > _build/default/src/.DisjointSet.objs/DisjointSetReason.re.ml.d
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamldep.opt -modules -impl src/DisjointSet.re.ml) > _build/default/src/.DisjointSet.objs/DisjointSet.re.ml.d
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/.DisjointSet.objs/byte -no-alias-deps -opaque -o src/.DisjointSet.objs/byte/disjointSet.cmo -c -impl src/DisjointSet.re.ml)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/.DisjointSet.objs/byte -no-alias-deps -opaque -o src/.DisjointSet.objs/byte/disjointSetReason.cmo -c -impl src/DisjointSetReason.re.ml)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o src/DisjointSet.cma src/.DisjointSet.objs/byte/disjointSet.cmo src/.DisjointSet.objs/byte/disjointSetReason.cmo)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/.DisjointSet.objs/byte -I src/.DisjointSet.objs/native -intf-suffix .ml -no-alias-deps -opaque -o src/.DisjointSet.objs/native/disjointSetReason.cmx -c -impl src/DisjointSetReason.re.ml)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/.DisjointSet.objs/byte -I src/.DisjointSet.objs/native -intf-suffix .ml -no-alias-deps -opaque -o src/.DisjointSet.objs/native/disjointSet.cmx -c -impl src/DisjointSet.re.ml)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o src/DisjointSet.cmxa src/.DisjointSet.objs/native/disjointSet.cmx src/.DisjointSet.objs/native/disjointSetReason.cmx)
+$ (cd _build/default && /Users/dylanirlbeck/.esy/3____________________________________________________________/i/ocaml-4.9.0-27f2b357/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I src -o src/DisjointSet.cmxs src/DisjointSet.cmxa)

@@ -1,0 +1,17 @@
+(lang dune 1.11)
+(name disjoint-set-reason)
+(library
+ (name disjoint-set-reason)
+ (kind normal)
+ (orig_src_dir /Users/dylanirlbeck/Code/Reason/disjoint-set-reason/src)
+ (archives (byte DisjointSet.cma) (native DisjointSet.cmxa))
+ (plugins (byte DisjointSet.cma) (native DisjointSet.cmxs))
+ (foreign_archives (native DisjointSet.a))
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name DisjointSet) (obj_name DisjointSet) (visibility public) (impl))
+   ((name DisjointSetReason)
+    (obj_name DisjointSetReason)
+    (visibility public)
+    (impl)))))

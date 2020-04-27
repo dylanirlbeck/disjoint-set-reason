@@ -12,6 +12,9 @@
     "@opam/reason": "3.5.2",
     "ocaml": "~4.6.1000"
   },
+  "devDependencies": {
+    "@opam/dune-release": "*"
+  },
   "keywords": ["reasonml", "algorithms", "data-structures"],
   "author": "Dylan Irlbeck",
   "license": "MIT",
